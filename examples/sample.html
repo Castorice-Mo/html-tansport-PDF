@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>月度对账单</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  /* 只用开源字体（Noto Sans SC，OFL）；静态实例优先，避免把商业字体子集嵌进示例 PDF */
+  body { font-family: "Noto Sans SC Static", "Noto Sans SC", "Source Han Sans SC", sans-serif; color: #222; font-size: 11pt; line-height: 1.8; }
+  h1 { font-size: 20pt; margin: 0 0 4px; }
+  .meta { color: #666; font-size: 9.5pt; margin-bottom: 18px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { border-bottom: 1px solid #ddd; padding: 8px 6px; text-align: left; }
+  th { background: #f2f6f5; border-bottom: 2px solid #9bc4b8; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tfoot td { font-weight: bold; border-top: 2px solid #9bc4b8; }
+  .note { margin-top: 16px; color: #555; font-size: 9.5pt; }
+</style>
+</head>
+<body>
+  <h1>月度对账单</h1>
+  <p class="meta">账户：CAST-2026-1026　|　周期：2026-09-26 至 2026-10-25</p>
+
+  <table>
+    <thead>
+      <tr><th>日期</th><th>项目</th><th>类别</th><th class="num">金额（元）</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2026-09-28</td><td>服务器托管</td><td>基础设施</td><td class="num">1,280.00</td></tr>
+      <tr><td>2026-10-03</td><td>域名续费</td><td>基础设施</td><td class="num">86.00</td></tr>
+      <tr><td>2026-10-09</td><td>字体授权</td><td>设计资源</td><td class="num">420.00</td></tr>
+      <tr><td>2026-10-15</td><td>对象存储流量</td><td>基础设施</td><td class="num">312.50</td></tr>
+      <tr><td>2026-10-21</td><td>API 调用配额</td><td>研发</td><td class="num">960.00</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="3">合计</td><td class="num">3,058.50</td></tr>
+    </tfoot>
+  </table>
+
+  <p class="note">说明：本对账单由 HTML 模板生成，经 html-to-pdf 渲染为 PDF；金额与日期为示例数据。</p>
+</body>
+</html>

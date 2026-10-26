@@ -1,0 +1,6 @@
+# 文本统一按 LF 存储与检出，避免 Windows 上 CRLF 来回翻转
+* text=auto eol=lf
+
+# 二进制资产：不做换行转换
+*.pdf binary
+*.png binary
