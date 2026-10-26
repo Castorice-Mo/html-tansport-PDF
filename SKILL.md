@@ -1,7 +1,7 @@
 ---
 name: html-to-pdf
 description: 把 HTML 文件、整个文件夹或在线网页转成版面可靠的 PDF（纸张/横竖、页边距、页眉页脚页码、背景色、批量）。触发词：HTML 转 PDF、网页转 PDF、html2pdf、打印成 PDF、导出 PDF、网页存成 PDF、html2pdf、html 打印。
-version: 1.0.0
+version: 0.1.0
 license: MIT
 allowed-tools:
   - Read

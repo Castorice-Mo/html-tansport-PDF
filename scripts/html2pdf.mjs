@@ -19,7 +19,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-const VERSION = '1.0.0';
+const VERSION = '0.1.0';
 
 /* ------------------------------------------------------------------ */
 /* paper sizes (mm, portrait)                                          */

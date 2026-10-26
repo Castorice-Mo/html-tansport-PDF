@@ -6,7 +6,7 @@
 
 | 项目 | 说明 |
 |---|---|
-| 版本 | 1.0.0 |
+| 版本 | 0.1.0 |
 | 运行环境 | Node ≥ 22（用到内置 `WebSocket` / `fetch`），Edge 或 Chrome |
 | 形态 | 命令行工具；同时可直接放入 `~/.agents/skills/` 作为 Harness 技能 |
 | 许可 | MIT |
